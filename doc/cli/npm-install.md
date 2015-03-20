@@ -99,6 +99,9 @@ after packing it up into a tarball (b).
       exact version rather than using npm's default semver range
       operator.
 
+    Further, if you have an `npm-shrinkwrap.json` then it will be udpated as
+    well.
+
     `<scope>` is optional. The package will be downloaded from the registry
     associated with the specified scope. If no registry is associated with
     the given scope the default registry is assumed. See `npm-scope(7)`.
